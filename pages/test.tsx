@@ -5,7 +5,7 @@ import Menu from "../components/Menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Test() {
   return (
     <>
       <Head>
@@ -22,14 +22,7 @@ export default function Home() {
             <div className={styles.dividingLine} />
             <div className={styles.rightSide}>
               <div className={styles.inputPart}>
-                <p className={styles.loginContent}>
-                  If you want to speak English well,
-                  <br />
-                  Sign up for us right now! 🤓
-                </p>
-                <input placeholder="Email" className={styles.inputBox}></input>
-                <input placeholder="Password" className={styles.inputBox}></input>
-                <button className={styles.inputButton}>Submit</button>
+                <p className={styles.loginContent}>Test Page</p>
               </div>
             </div>
           </div>
