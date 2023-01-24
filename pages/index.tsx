@@ -25,7 +25,7 @@ export default function Home() {
                 <p className={styles.loginContent}>
                   If you want to speak English well,
                   <br />
-                  Sign up for us right now! 🤓
+                  Sign up for us right now!! 🤓
                 </p>
                 <input placeholder="Email" className={styles.inputBox}></input>
                 <input placeholder="Password" className={styles.inputBox}></input>
